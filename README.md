@@ -1,6 +1,6 @@
 # multisite-module
-[![npm (scoped with tag)](https://img.shields.io/npm/v/multisite-module/latest.svg?style=flat-square)](https://npmjs.com/package/multisite-module)
-[![npm](https://img.shields.io/npm/dt/multisite-module.svg?style=flat-square)](https://npmjs.com/package/multisite-module)
+[![npm (scoped with tag)](https://img.shields.io/npm/v/@ax2/multisite-module/latest.svg?style=flat-square)](https://npmjs.com/package/@ax2/multisite-module)
+[![npm](https://img.shields.io/npm/dt/@ax2/multisite-module.svg?style=flat-square)](https://npmjs.com/package/@ax2/multisite-module)
 [![CircleCI](https://img.shields.io/circleci/project/github/ax2inc/multisite-module.svg?style=flat-square)](https://circleci.com/gh/ax2inc/multisite-module)
 [![Codecov](https://img.shields.io/codecov/c/github/ax2inc/multisite-module.svg?style=flat-square)](https://codecov.io/gh/ax2inc/multisite-module)
 [![Dependencies](https://david-dm.org/ax2inc/multisite-module/status.svg?style=flat-square)](https://david-dm.org/ax2inc/multisite-module)
@@ -24,18 +24,18 @@ This module helps you bring multisite features to your Nuxt project. Here are th
 - Install the module with your favorite package manager.
 
 ```sh
-yarn add multisite-module
-# Or npm i multisite-module
+yarn add @ax2/multisite-module
+# Or npm i @ax2/multisite-module
 ```
 
-- Add `multisite-module` to `modules` section of `nuxt.config.js`.
+- Add `@ax2/multisite-module` to `modules` section of `nuxt.config.js`.
 
 ```js
 // nuxt.config.js
 
 {
   modules: [
-    'multisite-module',
+    '@ax2/multisite-module',
  ],
 }
 ```
