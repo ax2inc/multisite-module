@@ -55,6 +55,13 @@ yarn add @ax2/multisite-module
 
 ## Options
 
+### debug
+
+- Type: `Boolean`
+- **Default**: `false`
+
+Set this to `true` to force the module to get the current site from the query string.
+
 ### sites
 
 - Type: `Array`
